@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+</head>
+<body>
+    
+    <form>
+        <table align="center">   
+    <th><h1>Novel Services Login</h1></th>
+    <tr>
+        <th><label for="userName">User Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></th>
+    <td><input type="text" id="userName" name="user"><br></td>
+    </tr>
+    <tr>
+    <th><label for="password">Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></th>
+    <td><input type="password" id="password" name="password"><br></td></tr>
+    <tr>
+    <th><label for="cityOfEmp">City Of <br> Employement :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></th>
+    <td><input type="text" id="cityOfEmp" name="cityOfEmp"><br></td></tr>
+    <tr>
+    <th><label for="webServer">Web Server :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></th>
+    <td><select name="webservers" id="webServer">
+        <option value="choose a server" disabled selected>--Choose a server</option>
+        <option value="server1">server1</option>
+        <option value="server2">server2</option>
+        <option value="server3">server3</option>
+      </select><br></td></tr>
+      <tr>
+    <th><label for="yourRole">Please Specify Your Role :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br></th>
+    <td><input type="radio" id="admin" name="yourRole">
+    <label for="admin">admin</label><br>
+    <input type="radio" id="engineer" name="yourRole">
+    <label for="engineer">Engineer</label><br>
+    <input type="radio" id="manager" name="yourRole">
+    <label for="manager">Manager</label><br>
+    <input type="radio" id="guest" name="yourRole">
+    <label for="guest">Guest</label><br></td>
+</tr>
+<tr>
+    <th><label for="signon">single sign-on to the following :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br></th>
+    <td><input type="checkbox" id="mail" name="signon">
+    <label for="mail">Mail</label><br>
+    <input type="checkbox" id="payRoll" name="signon">
+    <label for="payRoll">pay Roll</label><br>
+    <input type="checkbox" id="selfService" name="signon">
+    <label for="selfService">self Service</label><br></td>
+</tr>
+<tr>   <td></td><td> <input type="button" value="login">
+    <input type="reset" value="Reset"></td>
+</tr>
+
+</table>
+    </form>
+
+</body>
+</html>
