@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(205, 230, 226);
+}
+
+
+
+form{
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 4px;
+
+    background-color: rgb(8, 68, 68);
+    width: 350px;
+    height: 350px;
+}
+
+#sign{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: none;
+    color: white;
+    background-color: rgb(20, 228, 183);
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+#log{
+    margin-left: -10px;
+    color: white;
+    background-color: rgb(84, 116, 116);
+    width: 150px;
+    height: 30px;
+    border: none; 
+}
+
+h3{
+    margin-left: 110px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+   
+}
+#first{
+    margin-left: 25px;
+    width: 135px;
+    background-color:rgb(8, 68, 68) ;
+    border-style: solid;
+    margin-bottom: 25px;
+    font-size: 10px;
+    height: 20px;
+   border-radius: 2px;
+}
+#last{
+    width: 135px;
+    margin-left: 10px;
+    background-color:rgb(8, 68, 68) ;
+    border-style: solid;
+    margin-bottom: 25px;
+    font-size: 10px;
+    height: 20px;
+    border-radius: 2px;
+}
+#email,#pwd{
+    width: 290px;
+    margin-left: 25px;
+    background-color:rgb(8, 68, 68) ;
+    border-style: solid;
+    margin-bottom: 25px;
+    font-size: 10px;
+    height: 20px;
+    border-radius: 2px;
+}
+#get{
+    margin-left: 25px;
+    background-color: rgb(20, 228, 183);
+    color: white;
+    width: 300px;
+    height: 40px;
+    border: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
